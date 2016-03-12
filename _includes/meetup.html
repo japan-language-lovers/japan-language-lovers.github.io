@@ -1,0 +1,31 @@
+<!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6"> -->
+          <!--   <blockquote data-width="500" data-height="375" class="ricoh-theta-spherical-image" >Kiyomizudera 清水寺 w/Kyoto Language Lovers Meetup :) - <a href="https://theta360.com/s/stRDhNlrlzhBl8HilwZgY3Xa0" target="_blank">Spherical Image - RICOH THETA</a></blockquote> -->
+          <!--   <script async src="https://theta360.com/widgets.js" charset="utf-8"></script> -->
+          <!-- </div> -->
+          <!-- <div class="col-md-6"> -->
+          <!--   <blockquote data-width="500" data-height="375" class="ricoh-theta-spherical-image" >Kiyomizudera 清水寺 w/Kyoto Language Lovers Meetup :) - <a href="https://theta360.com/s/stRDhNlrlzhBl8HilwZgY3Xa0" target="_blank">Spherical Image - RICOH THETA</a></blockquote> -->
+          <!--   <script async src="https://theta360.com/widgets.js" charset="utf-8"></script> -->
+          <!-- </div> -->
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ site.meetup-title }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.meetup-subheading }}</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          {% for group in site.lovers %}
+            <div class="col-md-4">
+              <a href="{{ group.url }}"><img src="../img/meetup/{{ group.pic }}" alt=""></a>
+              <h4 class="service-heading">{{ group.title }}</h4>
+              <p class="text-muted">{{ group.description }}</p>
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>

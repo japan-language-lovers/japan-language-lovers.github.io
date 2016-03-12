@@ -1,0 +1,275 @@
+# ------------------------------------------------------------------------------
+# Site settings
+# ------------------------------------------------------------------------------
+
+title: Japan Language Lovers
+subtitle: Make the World Closer
+email: shoichiaizawa@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url:
+baseurl: ""
+bg-top: nagoya_event.jpg
+bg-contact: map-image.png
+
+# ------------------------------------------------------------------------------
+# Color settings (hex-codes without the leading #hash-tag)
+# ------------------------------------------------------------------------------
+
+color:
+  primary: D9373C #fed136
+  secondary: af2c30 #fec503
+  secondary-dark: 333
+
+# ------------------------------------------------------------------------------
+# Meetup
+# ------------------------------------------------------------------------------
+#
+# E.g.
+#
+# - title: X Language Lovers
+#   pic: X_logo.png
+#   url: http://www.meetup.com/X_language_lovers/
+#   description: short description
+
+meetup-title: Meetup
+meetup-subheading: Meet Us at Your { Local } Language Lovers
+
+lovers:
+- title: Nagoya Language Lovers
+  pic: nagoya_logo.jpg
+  url: http://www.meetup.com/Nagoya_Language_Lovers/
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+- title: Tokyo Language Lovers
+  pic: tokyo_logo.jpg
+  url: http://www.meetup.com/tokyo_language_lovers/
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+- title: Kyoto Language Lovers
+  pic: kyoto_logo.jpg
+  url: http://www.meetup.com/Kyoto-Language-Lovers/
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+# ------------------------------------------------------------------------------
+# Portfolio
+# ------------------------------------------------------------------------------
+
+section-title: Section
+section-subheading: Lorem ipsum dolor sit amet consectetur.
+
+# TODO: Replace with something else
+
+# ------------------------------------------------------------------------------
+# About
+# ------------------------------------------------------------------------------
+#
+# E.g.
+#
+# - title: What happened
+#   pic: image.extension (png/jpg)
+#   date: MMMM YYYY
+#   description: Short description for the event.
+
+about-title: About
+about-subheading: Lorem ipsum dolor sit amet consectetur.
+
+events:
+- title: Nagoya Language Lovers
+  pic: nagoya_logo.jpg
+  date: July 2014
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+- title: Tokyo Language Lovers
+  pic: tokyo_logo.jpg
+  date: December 2014
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+- title: Kyoto Language Lovers
+  pic: kyoto_logo.jpg
+  date: January 2015
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+# ------------------------------------------------------------------------------
+# Team names, titles and social links
+# ------------------------------------------------------------------------------
+#
+# E.g.
+#
+# - name: fName lName
+#   pic: integer (ascending order)
+#   position: position
+#   social:
+#     - title: social-service
+#       url: user_account_url
+#
+# NOTE: The size of image file needs to be 220x220, otherwise the frame and
+#       flipping part do not match well
+#
+# XXX: Fix the related HTML/CSS values to make any size square photo can work
+#      well
+
+team-title: Our Amazing Team
+team-subheading: Lorem ipsum dolor sit amet consectetur.
+team-bottomtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
+people:
+- name: Nicolas Cage
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Nicolas Cage
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+- name: Nicolas Cage
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Nicolas Cage
+  pic: 4
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Nicolas Cage
+  pic: 5
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Nicolas Cage
+  pic: 6
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Nicolas Cage
+  pic: 7
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Kabosu the Doge
+  pic: 8
+  position: Wow such doge
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# ------------------------------------------------------------------------------
+# Companies
+# ------------------------------------------------------------------------------
+#
+# E.g.
+#
+# - title: company_name
+#   pic: image.extention
+
+companies:
+  - title: envato
+    pic: envato.jpg
+  - title: designmodo
+    pic: designmodo.jpg
+  - title: themeforest
+    pic: themeforest.jpg
+  - title: creative-market
+    pic: creative-market.jpg
+  - title: aetuts
+    pic: aetuts.jpg
+  - title: microlancer
+    pic: microlancer.jpg
+  - title: wordpress
+    pic: wordpress.jpg
+
+# ------------------------------------------------------------------------------
+# Contact Us
+# ------------------------------------------------------------------------------
+
+contact-title: Contact Us
+contact-subheading: Lorem ipsum dolor sit amet consectetur.
+
+# ------------------------------------------------------------------------------
+# Social networks usernames (many more available: google-plus, flickr,
+# dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# ------------------------------------------------------------------------------
+#
+# E.g.
+#
+# - title: social-service
+#   url: jll_account_url
+
+social:
+  - title: facebook
+    url: https://www.facebook.com/japan.language.lovers/
+  - title: google-plus
+    url: https://plus.google.com/
+  - title: twitter
+    url: http://twitter.com/
+  - title: medium
+    url: https://medium.com/
+  - title: linkedin
+    url: https://www.linkedin.com/
+  - title: github
+    url: http://github.com/japan-language-lovers
+  - title: dribbble
+    url: https://dribbble.com/
+  - title: pinterest
+    url: https://www.pinterest.com/
+  - title: instagram
+    url: https://www.instagram.com/
+  - title: youtube
+    url: https://www.youtube.com/
+  - title: meetup
+    url: http://www.meetup.com/
+  - title: airbnb
+    url: https://www.airbnb.com/
+
+# ------------------------------------------------------------------------------
+# Postal address (add as many lines as necessary)
+# ------------------------------------------------------------------------------
+
+address:
+  - line: Example Street,
+  - line: foo-ku
+  - line: Nagoya, Aichi, 4xx-xxxx, Japan
+
+# ------------------------------------------------------------------------------
+# Build settings
+# ------------------------------------------------------------------------------
+
+markdown: kramdown
+permalink: pretty
